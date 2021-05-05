@@ -1,0 +1,7 @@
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.csprojAssemblyReference.cache
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.AssemblyInfoInputs.cache
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.AssemblyInfo.cs
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.APIGateway\obj\Debug\net5.0\Esourcing.APIGateway.MvcApplicationPartsAssemblyInfo.cache

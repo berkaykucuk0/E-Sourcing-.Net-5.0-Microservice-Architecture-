@@ -1,0 +1,111 @@
+services:
+  esourcing.apigateway:
+    build:
+      context: C:\Users\kucuk\source\repos\ESourcing
+      dockerfile: Esourcing.APIGateway/Dockerfile
+    container_name: esourcingapigateway
+    depends_on:
+      esourcing.order:
+        condition: service_started
+      esourcing.products:
+        condition: service_started
+      esourcing.sourcing:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: esourcingapigateway
+    ports:
+    - published: 5000
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  esourcing.order:
+    build:
+      context: C:\Users\kucuk\source\repos\ESourcing
+      dockerfile: ESourcing.Order/Dockerfile
+    container_name: esourcingorder
+    depends_on:
+      rabbitmq:
+        condition: service_started
+      sourcingsqldb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:OrderConnection: Server=sourcingsqldb;Database=OrderDb;User
+        Id=sa;Password=Odb12345678
+      EventBus:HostName: rabbitmq
+    image: esourcingorder
+    ports:
+    - published: 8002
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  esourcing.products:
+    build:
+      context: C:\Users\kucuk\source\repos\ESourcing
+      dockerfile: ESourcing.Products/Dockerfile
+    container_name: esourcingproducts
+    depends_on:
+      sourcingdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ProductDatabaseSettings:ConnectionString: mongodb://sourcingdb:27017
+    image: esourcingproducts
+    ports:
+    - published: 8000
+      target: 80
+    volumes:
+    - /ASP.NET/Https:/root/.aspnet/https:ro
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  esourcing.sourcing:
+    build:
+      context: C:\Users\kucuk\source\repos\ESourcing
+      dockerfile: Esourcing.Sourcing/Dockerfile
+    container_name: esourcingsourcing
+    depends_on:
+      rabbitmq:
+        condition: service_started
+      sourcingdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      EventBus:HostName: rabbitmq
+      SourcingDatabaseSettings:ConnectionString: mongodb://sourcingdb:27017
+    image: esourcingsourcing
+    ports:
+    - published: 8001
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
+  sourcingdb:
+    container_name: sourcingdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+  sourcingsqldb:
+    container_name: sourcingsqldb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Odb12345678
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 1433
+      target: 1433
+version: '3.4'
