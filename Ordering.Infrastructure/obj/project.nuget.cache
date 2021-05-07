@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ROp7Mwo5cvJA5e1cxcifm0YDVTn8KGFA3zKo/fSuGEDS8JAdyZiVQZyffTKCZssAvox6R2lMTThA0FHDewSTHA==",
+  "dgSpecHash": "I6pX4qxqma2RLyxB8wmdV7VCn46vUr7ThEz2oRRoFAVLdIdU08OESnTgSnbRgffKSX9j/aOX8LvD6LeEO6G0dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kucuk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kucuk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

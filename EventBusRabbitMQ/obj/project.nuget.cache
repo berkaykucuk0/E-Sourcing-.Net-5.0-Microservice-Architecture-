@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yUVhwZ5hQZ+Wudz0hCQmYQiqc1jG+qFGjU1HWcKMgv/WLi0dN+4IIPJFqcq/78oCxG2f6vNznFEtDuK+rYKgmg==",
+  "dgSpecHash": "HQQxgg/xBO0v0ckRJhIyM1BLVGfDJr2St/AI9zLTiDUeIlgY3ouoGZD2Ofp0m+dg3o1nXT0XMBavNqHgiKFEcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+  "projectFilePath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kucuk\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\kucuk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
