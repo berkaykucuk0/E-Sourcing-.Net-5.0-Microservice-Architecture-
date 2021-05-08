@@ -55,3 +55,16 @@ C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Ordering.Application.pdb
 C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Ordering.Domain.pdb
 C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Ordering.Infrastructure.dll
 C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Ordering.Infrastructure.pdb
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Esourcing.APIGateway.deps.json
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Esourcing.APIGateway.runtimeconfig.json
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Esourcing.APIGateway.runtimeconfig.dev.json
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\ocelot.json
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Esourcing.APIGateway.exe
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Esourcing.APIGateway.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Ocelot.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\kucuk\source\repos\ESourcing\bin\Debug\Esourcing.APIGateway.pdb

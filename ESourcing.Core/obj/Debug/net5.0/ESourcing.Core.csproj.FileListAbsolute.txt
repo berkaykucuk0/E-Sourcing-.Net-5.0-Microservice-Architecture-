@@ -1,0 +1,12 @@
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\bin\Debug\net5.0\ESourcing.Core.deps.json
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\bin\Debug\net5.0\ESourcing.Core.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\bin\Debug\net5.0\ref\ESourcing.Core.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\bin\Debug\net5.0\ESourcing.Core.pdb
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.csprojAssemblyReference.cache
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.AssemblyInfoInputs.cache
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.AssemblyInfo.cs
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.csproj.CoreCompileInputs.cache
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ref\ESourcing.Core.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.pdb

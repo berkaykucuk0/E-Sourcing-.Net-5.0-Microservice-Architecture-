@@ -9,3 +9,4 @@ C:\Users\kucuk\source\repos\ESourcing\Ordering.Domain\obj\Debug\net5.0\Ordering.
 C:\Users\kucuk\source\repos\ESourcing\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.dll
 C:\Users\kucuk\source\repos\ESourcing\Ordering.Domain\obj\Debug\net5.0\ref\Ordering.Domain.dll
 C:\Users\kucuk\source\repos\ESourcing\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.pdb
+C:\Users\kucuk\source\repos\ESourcing\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.csprojAssemblyReference.cache

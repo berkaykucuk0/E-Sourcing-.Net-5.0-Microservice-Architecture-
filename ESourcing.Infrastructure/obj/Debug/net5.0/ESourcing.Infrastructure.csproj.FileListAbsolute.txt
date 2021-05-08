@@ -1,0 +1,15 @@
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\bin\Debug\net5.0\ESourcing.Core.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.AssemblyInfo.cs
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\bin\Debug\net5.0\ESourcing.Infrastructure.deps.json
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\bin\Debug\net5.0\ESourcing.Infrastructure.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\bin\Debug\net5.0\ref\ESourcing.Infrastructure.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\bin\Debug\net5.0\ESourcing.Infrastructure.pdb
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\bin\Debug\net5.0\ESourcing.Core.pdb
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.csprojAssemblyReference.cache
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.csproj.CopyComplete
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ref\ESourcing.Infrastructure.dll
+C:\Users\kucuk\source\repos\ESourcing\ESourcing.Infrastructure\obj\Debug\net5.0\ESourcing.Infrastructure.pdb
