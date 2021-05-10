@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OF3Q9l3oxL9qFdy3XCVveE3dhTpW7dZ4HjcNW5Z69SLfsajOunDg24zmZFttbAGmJqU/zr/hbY/nSsBumxjrMA==",
+  "dgSpecHash": "4bTnv/f8mLKSC3FJyGsXbNgUdThVFp6GcdGMXaKDMmpA61EakGnXniJxKlQxIxvnkjkRsN5/Fq0jyK92aIrqnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Esourcing.APIGateway\\Esourcing.APIGateway.csproj",
+  "projectFilePath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Esourcing.APIGateway\\Esourcing.APIGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kucuk\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\kucuk\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",

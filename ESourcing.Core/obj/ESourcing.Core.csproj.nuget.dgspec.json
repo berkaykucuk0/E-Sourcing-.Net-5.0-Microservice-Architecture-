@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\ESourcing.Core\\ESourcing.Core.csproj": {}
+    "C:\\Users\\kucuk\\source\\repos\\ESourcing\\ESourcing.Core\\ESourcing.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\ESourcing.Core\\ESourcing.Core.csproj": {
+    "C:\\Users\\kucuk\\source\\repos\\ESourcing\\ESourcing.Core\\ESourcing.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\ESourcing.Core\\ESourcing.Core.csproj",
+        "projectUniqueName": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\ESourcing.Core\\ESourcing.Core.csproj",
         "projectName": "ESourcing.Core",
-        "projectPath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\ESourcing.Core\\ESourcing.Core.csproj",
+        "projectPath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\ESourcing.Core\\ESourcing.Core.csproj",
         "packagesPath": "C:\\Users\\kucuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\ESourcing.Core\\obj\\",
+        "outputPath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\ESourcing.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

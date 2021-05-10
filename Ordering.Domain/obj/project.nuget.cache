@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6E83r2OsHutOC9y8jND8A+nbxC/w7mcJ/LNRb+8lKpRnerqziTs24cQg3pFMj13C/9ZNd15CwilIYpyJS9D/DA==",
+  "dgSpecHash": "070hHJ5UHoLBGf9lIx3DZLgYHJB6HCjDOPUIPYH4INr1zxkeCkG6pXqynWGpJqI1RqyPfs1FJDA2aKjNuKafgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Domain\\Ordering.Domain.csproj",
+  "projectFilePath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Domain\\Ordering.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

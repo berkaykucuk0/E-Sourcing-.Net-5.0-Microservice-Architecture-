@@ -1,5 +1,6 @@
 using Esourcing.Sourcing.Data.Abstract;
 using Esourcing.Sourcing.Data.Concrede;
+using Esourcing.Sourcing.Hubs;
 using Esourcing.Sourcing.Repositories.Abstract;
 using Esourcing.Sourcing.Repositories.Concrede;
 using Esourcing.Sourcing.Settings;
@@ -34,7 +35,7 @@ namespace Esourcing.Sourcing
       
         public void ConfigureServices(IServiceCollection services)
         {
-
+          
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -88,7 +89,16 @@ namespace Esourcing.Sourcing
             });
 
             services.AddSingleton<EventBusRabbitMQProducer>();
-           
+
+            services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials()
+                        .WithOrigins("http://localhost:40697");
+            }));
+            services.AddSignalR();
         }
 
        
@@ -104,9 +114,10 @@ namespace Esourcing.Sourcing
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCors("CorsPolicy");
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHub<AuctionHub>("/auctionhub");
                 endpoints.MapControllers();
             });
         }

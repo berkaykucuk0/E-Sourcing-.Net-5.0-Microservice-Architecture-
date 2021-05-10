@@ -87,3 +87,4 @@ C:\Users\kucuk\source\repos\ESourcing\Esourcing.Sourcing\bin\Debug\net5.0\Polly.
 C:\Users\kucuk\source\repos\ESourcing\Esourcing.Sourcing\bin\Debug\net5.0\RabbitMQ.Client.dll
 C:\Users\kucuk\source\repos\ESourcing\Esourcing.Sourcing\bin\Debug\net5.0\EventBusRabbitMQ.dll
 C:\Users\kucuk\source\repos\ESourcing\Esourcing.Sourcing\bin\Debug\net5.0\EventBusRabbitMQ.pdb
+C:\Users\kucuk\source\repos\ESourcing\Esourcing.Sourcing\bin\Debug\net5.0\libman.json

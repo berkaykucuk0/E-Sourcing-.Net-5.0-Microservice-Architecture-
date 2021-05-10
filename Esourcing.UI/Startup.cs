@@ -35,6 +35,11 @@ namespace Esourcing.UI
             services.AddMvc();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
+            services.AddSession(opt =>
+            {
+                opt.IdleTimeout = TimeSpan.FromMinutes(20);
+            });
+
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
@@ -42,6 +47,10 @@ namespace Esourcing.UI
             services.AddHttpClient();
             services.AddHttpClient<ProductClient> ();
             services.AddHttpClient<AuctionClient>();
+            services.AddHttpClient<BidClient>();
+
+
+            
             //Identity Configuration
             services.AddIdentity<AppUser, IdentityRole>(opt =>
             {
@@ -75,7 +84,7 @@ namespace Esourcing.UI
             app.UseStaticFiles();
 
             app.UseRouting();
-              
+            app.UseSession();
             app.UseAuthorization();
             app.UseAuthentication();
             app.UseEndpoints(endpoints =>

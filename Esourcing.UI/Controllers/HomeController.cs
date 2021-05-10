@@ -1,5 +1,6 @@
 ﻿using Esourcing.UI.Models;
 using ESourcing.Core.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -48,6 +49,7 @@ namespace Esourcing.UI.Controllers
                     if (result.Succeeded)
                     {
                         var isgirdi = _signInManager.IsSignedIn(User);
+                        HttpContext.Session.SetString("IsAdmin", user.IsAdmin.ToString());
                         return LocalRedirect(returnUrl);
                     }
                     else

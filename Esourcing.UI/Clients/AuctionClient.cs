@@ -60,6 +60,39 @@ namespace Esourcing.UI.Clients
 
         }
 
+        public async Task<Result<AuctionModel>> GetAuctionById(string id)
+        {
+            var response = await _client.GetAsync("/api/v1/Auction/" + id);
+            if (response.IsSuccessStatusCode)
+            {
+                var responseData = await response.Content.ReadAsStringAsync();
+                var result = JsonConvert.DeserializeObject<AuctionModel>(responseData);
+                if (result!=null)
+                {
+                    return new Result<AuctionModel>(isSuccess: true, ResultConstant.RecordFound, result);
+                }
+                else
+                {
+                    return new Result<AuctionModel>(isSuccess: false, ResultConstant.RecordNotFound);
+                }
+            }
+            return new Result<AuctionModel>(isSuccess: false, ResultConstant.RecordNotFound);
+        }
+
+
+        public async Task<Result<string>> CompleteBid(string id)
+        {
+            var dataAsString = JsonConvert.SerializeObject(id);
+            var content = new StringContent(dataAsString);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            var response = await _client.PostAsync("api/v1/Auction/CompleteAuction", content);
+            if (response.IsSuccessStatusCode)
+            {
+                var responseData = await response.Content.ReadAsStringAsync();
+                return new Result<string>(true, ResultConstant.RecordCreateSuccessfully, responseData);
+            }
+            return new Result<string>(false, ResultConstant.RecordCreateNotSuccessfully);
+        }
 
     }
 }

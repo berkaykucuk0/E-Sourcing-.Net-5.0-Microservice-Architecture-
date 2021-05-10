@@ -78,7 +78,7 @@ namespace Esourcing.Sourcing.Controllers
         [ProducesResponseType(typeof(Auction), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<Auction>> DeleteAuction(string id)
         {
-            return Ok(_auctionRepository.Delete(id));
+            return Ok( await _auctionRepository.Delete(id));
         }
 
 

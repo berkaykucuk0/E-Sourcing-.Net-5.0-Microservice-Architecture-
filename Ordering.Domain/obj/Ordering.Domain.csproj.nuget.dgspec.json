@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Domain\\Ordering.Domain.csproj": {}
+    "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Domain\\Ordering.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Domain\\Ordering.Domain.csproj": {
+    "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Domain\\Ordering.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Domain\\Ordering.Domain.csproj",
         "projectName": "Ordering.Domain",
-        "projectPath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectPath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Domain\\Ordering.Domain.csproj",
         "packagesPath": "C:\\Users\\kucuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

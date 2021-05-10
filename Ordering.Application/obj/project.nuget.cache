@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/WX6KAfjLvdMo+PI1cBegP54lWctdd5vP715bLqogOqbecSkfEetpMJ69To56jVDD1pR8+TtX1ORFQjaqZRMsQ==",
+  "dgSpecHash": "nkPVHLQZR9KQyexpqFXAIq/b5nWcZ25GifFqC0n30hmZ6mJTPMdbrZoS4Zyfp7wT4lHhcynzT1pM+9FfJxotxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kucuk\\Source\\Repos\\berkaykucuk0\\E-Sourcing-.Net-5.0-Microservice-Architecture-\\Ordering.Application\\Ordering.Application.csproj",
+  "projectFilePath": "C:\\Users\\kucuk\\source\\repos\\ESourcing\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kucuk\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\kucuk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
