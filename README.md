@@ -10,6 +10,7 @@ Microservices in the project:
 -Ocelot API Gateway
 
 UI projects can connect the these microservices with Ocelot API gateway(This project for http://localhost:/5000).
+We can bid in a bid in realtime with SignalR.
 
 Used Structures
 
