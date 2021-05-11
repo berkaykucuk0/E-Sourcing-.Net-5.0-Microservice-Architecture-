@@ -8,7 +8,9 @@ namespace ESourcing.Core.Common
 {
     public class CommonInfo
     {
-        public static string LocalProductBaseAddress = "http://localhost:17156";
-         public static string LocalAuctionBaseAddress = "http://localhost:9205";
+        //public static string LocalProductBaseAddress = "http://localhost:17156";
+        // public static string LocalAuctionBaseAddress = "http://localhost:9205";
+
+        public static string BaseAddress = "http://localhost:5000";
     }
 }

@@ -18,7 +18,7 @@ namespace Esourcing.UI.Clients
         public AuctionClient(HttpClient client)
         {
             _client = client;
-            _client.BaseAddress = new Uri(CommonInfo.LocalAuctionBaseAddress);
+            _client.BaseAddress = new Uri(CommonInfo.BaseAddress);
 
         }
 
@@ -27,7 +27,7 @@ namespace Esourcing.UI.Clients
             var dataAsString = JsonConvert.SerializeObject(model);
             var content = new StringContent(dataAsString);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            var response = await _client.PostAsync("api/v1/Auction", content);
+            var response = await _client.PostAsync("/Auction", content);
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadAsStringAsync();
@@ -42,7 +42,7 @@ namespace Esourcing.UI.Clients
 
         public async Task<Result<IList<AuctionModel>>> GetAuctions()
         {
-            var response = await  _client.GetAsync("api/v1/Auction");
+            var response = await  _client.GetAsync("/Auction");
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadAsStringAsync();
@@ -62,7 +62,7 @@ namespace Esourcing.UI.Clients
 
         public async Task<Result<AuctionModel>> GetAuctionById(string id)
         {
-            var response = await _client.GetAsync("/api/v1/Auction/" + id);
+            var response = await _client.GetAsync("/Auction/" + id);
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadAsStringAsync();
@@ -85,7 +85,7 @@ namespace Esourcing.UI.Clients
             var dataAsString = JsonConvert.SerializeObject(id);
             var content = new StringContent(dataAsString);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            var response = await _client.PostAsync("api/v1/Auction/CompleteAuction", content);
+            var response = await _client.PostAsync("/Auction/CompleteAuction", content);
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadAsStringAsync();

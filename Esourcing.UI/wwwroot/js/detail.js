@@ -1,6 +1,6 @@
 ﻿/*/*const { signalR } = require("../lib/microsoft-signalr/signalr");*/
 
-var connection = new signalR.HubConnectionBuilder().withUrl("http://localhost:9205/auctionhub").build();
+var connection = new signalR.HubConnectionBuilder().withUrl("http://localhost:8001/auctionhub").build();
 var auctionId = document.getElementById("AuctionId").value;
 
 document.getElementById("sendButton").disabled = true;
