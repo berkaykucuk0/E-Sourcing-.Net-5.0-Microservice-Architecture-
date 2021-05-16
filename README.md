@@ -40,6 +40,6 @@ Used Structures
 
 -- Web Api
 
--- MVC Projesi
+-- MVC Project
 
 -- Microsoft Identity
