@@ -32,7 +32,7 @@ Used Structures
 
 -- SignalR
 
--- Entity FrameWork
+-- Entity Framework
 
 -- docker - compose yaml file
 
